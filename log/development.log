@@ -905,3 +905,57 @@ Started GET "/assets/application.self-8d693227f4f33423b00e468063abce83c2e8716ffa
 Started GET "/assets/application.self-8d693227f4f33423b00e468063abce83c2e8716ffa1562cab6c2b06de3c8e467.css?body=1&livereload=1622736018369&livereload=1622735887819&livereload=1622735988701&livereload=1622736005743" for ::1 at 2021-06-03 12:00:18 -0400
 Started GET "/assets/application.self-8d693227f4f33423b00e468063abce83c2e8716ffa1562cab6c2b06de3c8e467.css?body=1&livereload=1622736084563&livereload=1622735887819&livereload=1622735988701&livereload=1622736005743" for ::1 at 2021-06-03 12:01:24 -0400
 Started GET "/assets/application.self-8d693227f4f33423b00e468063abce83c2e8716ffa1562cab6c2b06de3c8e467.css?body=1&livereload=1622736084564&livereload=1622735887819&livereload=1622735988701&livereload=1622736005743" for ::1 at 2021-06-03 12:01:24 -0400
+Started GET "/" for ::1 at 2021-06-03 14:53:09 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/didicole/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (6.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (51.1ms)
+Completed 200 OK in 1958ms (Views: 1954.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d067957de3c4a1aed44a5970f8799d2746b16030d3bd9af716e60e44ee4c629b.css?body=1" for ::1 at 2021-06-03 14:53:12 -0400
+Started GET "/" for ::1 at 2021-06-03 15:06:41 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.3ms)
+  Rendered shared/_main_nav.html.erb (34.3ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (1.2ms)
+  Rendered shared/_main_content.html.erb (1.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (118.9ms)
+Completed 200 OK in 324ms (Views: 305.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-03 15:06:47 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (4.7ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (1.6ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 78ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-03 15:34:30 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (1.5ms)
+  Rendered shared/_main_nav.html.erb (11.9ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (1.4ms)
+  Rendered shared/_search_modal.html.erb (1.3ms)
+  Rendered shared/_main_content.html.erb (1.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (56.3ms)
+Completed 200 OK in 220ms (Views: 193.2ms | ActiveRecord: 0.0ms)
+
+
